@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="WebContent/WEB-INF/tag"/>
+	<classpathentry kind="src" path="WebContent/WEB-INF/jsp"/>
+	<classpathentry kind="src" path="dataCache"/>
+	<classpathentry kind="src" path="dataExchange"/>
+	<classpathentry kind="src" path="IotCommunication"/>
+	<classpathentry kind="src" path="IotInfo"/>
+	<classpathentry kind="src" path="iotTraffic"/>
+	<classpathentry kind="src" path="IotUtil"/>
+	<classpathentry kind="src" path="BasicComponent"/>
+	<classpathentry kind="src" path="BasicUtil"/>
+	<classpathentry kind="src" path="buss"/>
+	<classpathentry kind="src" path="conf"/>
+	<classpathentry kind="src" path="Singletask"/>
+	<classpathentry kind="src" path="Taskexe"/>
+	<classpathentry kind="src" path="wms"/>
+	<classpathentry kind="src" path="udf"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container/ProjectBussModel"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
+</classpath>

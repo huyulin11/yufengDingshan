@@ -1,0 +1,11 @@
+/.*/
+
+/s/
+/Servers/
+
+**/classes/
+*.class
+*.log
+.metadata*.zip
+*.DS_Store
+ProjectBussModel/WebContent/s
