@@ -27,7 +27,7 @@ public class YufengRedisController implements ISingleCacheWorkerGetter {
 	public synchronized Object getLatestMsg() {
 		String msg = null;
 		Map<Integer, AGVMsgBean> latestMsg = new HashMap<Integer, AGVMsgBean>();
-		msg = agvServerMgr.getMap().get(1).getMsgReceived();
+		msg = agvServerMgr.getMap().get(1).getMsg();
 		if (!AppTool.isNull(msg)) {
 			msg = msg.trim();
 			System.out.println(msg);

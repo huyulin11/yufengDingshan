@@ -48,12 +48,12 @@ public class YufengAgvManager {
 	}
 
 	public AppMsg pause(Integer agvId) {
-		agvServerWorker.get(1).setMsgTobeSend("cmd=pause;pauseStat=1");
+		agvServerWorker.get(1).setCmd("cmd=pause;pauseStat=1");
 		return AppMsg.success();
 	}
 
 	public AppMsg startup(Integer agvId) {
-		agvServerWorker.get(1).setMsgTobeSend("cmd=pause;pauseStat=0");
+		agvServerWorker.get(1).setCmd("cmd=pause;pauseStat=0");
 		return AppMsg.success();
 	}
 

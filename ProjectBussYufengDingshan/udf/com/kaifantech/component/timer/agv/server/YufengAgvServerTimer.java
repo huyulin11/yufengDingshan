@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import com.kaifantech.component.comm.worker.server.agv.IAgvServerWorker;
 import com.kaifantech.component.dao.AgvMsgDao;
-import com.kaifantech.component.service.agv.simulator.YufengAgvServerWorker;
 import com.kaifantech.component.service.comm.YufengAgvManager;
 import com.kaifantech.init.sys.ProjectClient;
 import com.kaifantech.init.sys.SystemInfo;
@@ -24,7 +24,7 @@ public class YufengAgvServerTimer {
 	private final Logger logger = Logger.getLogger(YufengAgvServerTimer.class);
 
 	@Autowired
-	private YufengAgvServerWorker agvServerWorker;
+	private IAgvServerWorker agvServerWorker;
 
 	@Autowired
 	private AgvMsgDao msgDao;
@@ -60,7 +60,7 @@ public class YufengAgvServerTimer {
 		if (!SystemInfo.CURRENT_CLIENT.equals(ProjectClient.YUFENG)) {
 			return;
 		}
-		String msg = agvServerWorker.getMap().get(1).getMsgReceived();
+		String msg = agvServerWorker.get(1).getMsg();
 		if (AppTool.isNull(msg)) {
 			return;
 		}
