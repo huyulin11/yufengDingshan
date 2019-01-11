@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 import com.kaifantech.component.comm.worker.server.agv.IAgvServerWorker;
 import com.kaifantech.component.dao.AgvMsgDao;
 import com.kaifantech.component.service.comm.YufengAgvManager;
-import com.kaifantech.init.sys.ProjectClient;
 import com.kaifantech.init.sys.AppBusinessInfo;
+import com.kaifantech.init.sys.BaseBusinessInfo;
 import com.kaifantech.init.sys.params.SystemParameters;
 import com.kaifantech.util.seq.ThreadID;
 import com.kaifantech.util.thread.ThreadTool;
@@ -35,7 +35,7 @@ public class YufengAgvServerTimer {
 
 	@Scheduled(cron = "0/1 * * * * ?")
 	public void resolute() {
-		if (!AppBusinessInfo.CURRENT_CLIENT.equals(ProjectClient.YUFENG)) {
+		if (!AppBusinessInfo.CURRENT_CLIENT.equals(BaseBusinessInfo.Clients.YUFENG)) {
 			return;
 		}
 		if (!SystemParameters.isConnectIotServer()) {
@@ -57,7 +57,7 @@ public class YufengAgvServerTimer {
 
 	@Scheduled(initialDelay = 5000, fixedDelay = 1000)
 	public void getMsgFromAgv() {
-		if (!AppBusinessInfo.CURRENT_CLIENT.equals(ProjectClient.YUFENG)) {
+		if (!AppBusinessInfo.CURRENT_CLIENT.equals(BaseBusinessInfo.Clients.YUFENG)) {
 			return;
 		}
 		String msg = agvServerWorker.get(1).getMsg();
