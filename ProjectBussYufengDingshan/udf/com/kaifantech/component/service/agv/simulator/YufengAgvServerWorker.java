@@ -19,7 +19,7 @@ public class YufengAgvServerWorker implements IAgvServerWorker {
 
 	public synchronized void init() {
 		if (getMap() == null || getMap().size() == 0) {
-			YufengAgvNettyServer simulator = YufengAgvNettyServer.create(8080);
+			YufengAgvNettyServer simulator = YufengAgvNettyServer.create("" + 8080);
 			getMap().put(1, simulator);
 			try {
 				simulator.init();
