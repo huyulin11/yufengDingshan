@@ -5,12 +5,12 @@ import java.util.Map;
 
 import org.springframework.stereotype.Service;
 
-import com.kaifantech.component.comm.worker.server.agv.IAgvServerWorker;
+import com.kaifantech.component.comm.worker.server.IServerWorker;
 import com.kaifantech.util.socket.IConnect;
 import com.kaifantech.util.socket.netty.server.yufeng.YufengAgvNettyServer;
 
 @Service
-public class YufengAgvServerWorker implements IAgvServerWorker {
+public class YufengAgvServerWorker implements IServerWorker {
 	private Map<Integer, IConnect> map = new HashMap<>();
 
 	public synchronized Map<Integer, IConnect> getMap() {
