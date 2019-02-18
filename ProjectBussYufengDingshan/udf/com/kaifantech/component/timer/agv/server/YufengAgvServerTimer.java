@@ -2,6 +2,7 @@ package com.kaifantech.component.timer.agv.server;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -12,6 +13,7 @@ import com.kaifantech.component.service.comm.YufengAgvManager;
 import com.kaifantech.init.sys.AppBusinessInfo;
 import com.kaifantech.init.sys.BaseBusinessInfo;
 import com.kaifantech.init.sys.params.SystemParameters;
+import com.kaifantech.init.sys.qualifier.YufengSystemQualifier;
 import com.kaifantech.util.seq.ThreadID;
 import com.kaifantech.util.thread.ThreadTool;
 import com.ytgrading.util.AppTool;
@@ -24,6 +26,7 @@ public class YufengAgvServerTimer {
 	private final Logger logger = Logger.getLogger(YufengAgvServerTimer.class);
 
 	@Autowired
+	@Qualifier(YufengSystemQualifier.AGV_SERVER_WORKER)
 	private IServerWorker agvServerWorker;
 
 	@Autowired
