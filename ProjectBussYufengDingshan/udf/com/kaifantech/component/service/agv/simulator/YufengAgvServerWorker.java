@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.springframework.stereotype.Service;
 
+import com.kaifantech.bean.iot.client.IotClientBean;
 import com.kaifantech.component.comm.worker.server.IServerWorker;
 import com.kaifantech.util.socket.IConnect;
 import com.kaifantech.util.socket.netty.server.yufeng.YufengAgvNettyServer;
@@ -19,7 +20,7 @@ public class YufengAgvServerWorker implements IServerWorker {
 
 	public synchronized void init() {
 		if (getMap() == null || getMap().size() == 0) {
-			YufengAgvNettyServer simulator = YufengAgvNettyServer.create("" + 8080);
+			YufengAgvNettyServer simulator = YufengAgvNettyServer.create(new IotClientBean(null, "" + 8080));
 			getMap().put(1, simulator);
 			try {
 				simulator.init();
