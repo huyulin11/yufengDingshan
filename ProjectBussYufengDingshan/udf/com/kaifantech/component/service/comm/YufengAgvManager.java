@@ -12,8 +12,8 @@ import com.kaifantech.bean.msg.agv.yufeng.YufengAGVMsgBean;
 import com.kaifantech.bean.msg.agv.yufeng.YufengAgvMsgBeanTransfer;
 import com.kaifantech.component.service.agv.simulator.YufengAgvServerWorker;
 import com.kaifantech.init.sys.params.SystemParameters;
-import com.ytgrading.util.AppTool;
-import com.ytgrading.util.msg.AppMsg;
+import com.calculatedfun.util.AppTool;
+import com.calculatedfun.util.msg.AppMsg;
 
 @Service
 public class YufengAgvManager {

@@ -16,7 +16,7 @@ import com.kaifantech.init.sys.params.SystemParameters;
 import com.kaifantech.init.sys.qualifier.YufengSystemQualifier;
 import com.kaifantech.util.seq.ThreadID;
 import com.kaifantech.util.thread.ThreadTool;
-import com.ytgrading.util.AppTool;
+import com.calculatedfun.util.AppTool;
 
 @Component
 @Lazy(false)

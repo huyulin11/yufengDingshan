@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.kaifantech.cache.manager.ISingleCacheWorkerGetter;
 import com.kaifantech.component.service.comm.YufengAgvManager;
-import com.ytgrading.util.msg.AppMsg;
+import com.calculatedfun.util.msg.AppMsg;
 
 @Controller
 @RequestMapping("/json/open/yufeng/")

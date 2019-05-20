@@ -14,7 +14,7 @@ import com.kaifantech.bean.msg.agv.yufeng.YufengAGVMsgBean;
 import com.kaifantech.bean.msg.agv.yufeng.YufengAgvMsgBeanTransfer;
 import com.kaifantech.cache.manager.ISingleCacheWorkerGetter;
 import com.kaifantech.component.service.agv.simulator.YufengAgvServerWorker;
-import com.ytgrading.util.AppTool;
+import com.calculatedfun.util.AppTool;
 
 @Controller
 @RequestMapping("/json/open/yufeng/")

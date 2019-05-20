@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.kaifantech.component.dao.simulator.TestPathDao;
-import com.ytgrading.util.AppTool;
+import com.calculatedfun.util.AppTool;
 
 @Service
 public class YufengTestMsgService {
