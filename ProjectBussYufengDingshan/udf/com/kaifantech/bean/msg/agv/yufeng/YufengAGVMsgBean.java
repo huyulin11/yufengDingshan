@@ -1,6 +1,6 @@
 package com.kaifantech.bean.msg.agv.yufeng;
 
-import com.kaifantech.bean.msg.agv.AGVMsgBean;
+import com.kaifantech.bean.msg.agv.LaserAgvMsgBean;
 
 public class YufengAGVMsgBean implements Cloneable {
 	private String latitude;
@@ -104,8 +104,8 @@ public class YufengAGVMsgBean implements Cloneable {
 		this.taskresponse = taskresponse;
 	}
 
-	public AGVMsgBean toAGVMsgBean() {
-		AGVMsgBean tmpBean = new AGVMsgBean();
+	public LaserAgvMsgBean toLaserAgvMsgBean() {
+		LaserAgvMsgBean tmpBean = new LaserAgvMsgBean();
 		tmpBean.setX(Double.parseDouble(longitude) * 1000000);
 		tmpBean.setY(Double.parseDouble(latitude) * 1000000);
 		tmpBean.setSpeed(Double.parseDouble(speed));
