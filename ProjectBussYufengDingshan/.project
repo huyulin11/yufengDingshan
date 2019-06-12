@@ -91,11 +91,6 @@
 			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/iotTraffic</location>
 		</link>
 		<link>
-			<name>wms</name>
-			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/wms</location>
-		</link>
-		<link>
 			<name>WebContent/WEB-INF/jsp</name>
 			<type>2</type>
 			<location>G:/work2018/src/git/ProjectBussModel/WebContent/WEB-INF/jsp</location>

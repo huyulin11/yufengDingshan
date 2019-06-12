@@ -14,7 +14,6 @@
 	<classpathentry kind="src" path="conf"/>
 	<classpathentry kind="src" path="Singletask"/>
 	<classpathentry kind="src" path="Taskexe"/>
-	<classpathentry kind="src" path="wms"/>
 	<classpathentry kind="src" path="udf"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
