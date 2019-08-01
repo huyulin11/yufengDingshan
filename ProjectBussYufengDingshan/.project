@@ -3,7 +3,6 @@
 	<name>ProjectBussYufengDingshan</name>
 	<comment></comment>
 	<projects>
-		<project>ProjectBussModel</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

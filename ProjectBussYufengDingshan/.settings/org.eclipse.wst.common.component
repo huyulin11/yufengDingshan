@@ -5,9 +5,6 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/WEB-INF/tag"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/buss"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/udf"/>
-        <dependent-module archiveName="ProjectBussModel.war" deploy-path="/WEB-INF/lib" handle="module:/resource/ProjectBussModel/ProjectBussModel">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="json-lib-2.4-jdk15.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/ProjectBussModel/WebContent/WEB-INF/lib/json-lib-2.4-jdk15.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
