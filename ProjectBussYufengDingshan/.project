@@ -32,72 +32,72 @@
 		<link>
 			<name>BasicComponent</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/BasicComponent</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/BasicComponent</location>
 		</link>
 		<link>
 			<name>BasicUtil</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/BasicUtil</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/BasicUtil</location>
 		</link>
 		<link>
 			<name>IotCommunication</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/IotCommunication</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/IotCommunication</location>
 		</link>
 		<link>
 			<name>IotInfo</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/IotInfo</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/IotInfo</location>
 		</link>
 		<link>
 			<name>IotUtil</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/IotUtil</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/IotUtil</location>
 		</link>
 		<link>
 			<name>Singletask</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/Singletask</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/Singletask</location>
 		</link>
 		<link>
 			<name>Taskexe</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/Taskexe</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/Taskexe</location>
 		</link>
 		<link>
 			<name>buss</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/buss</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/buss</location>
 		</link>
 		<link>
 			<name>conf</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/conf</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/conf</location>
 		</link>
 		<link>
 			<name>dataCache</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/dataCache</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/dataCache</location>
 		</link>
 		<link>
 			<name>dataExchange</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/dataExchange</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/dataExchange</location>
 		</link>
 		<link>
 			<name>iotTraffic</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/JavaSrc/iotTraffic</location>
+			<location>G:/work2018/src/git/ProjectModel/JavaSrc/iotTraffic</location>
 		</link>
 		<link>
 			<name>WebContent/WEB-INF/jsp</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/WebContent/WEB-INF/jsp</location>
+			<location>G:/work2018/src/git/ProjectModel/WebContent/WEB-INF/jsp</location>
 		</link>
 		<link>
 			<name>WebContent/WEB-INF/tag</name>
 			<type>2</type>
-			<location>G:/work2018/src/git/ProjectBussModel/WebContent/WEB-INF/tag</location>
+			<location>G:/work2018/src/git/ProjectModel/WebContent/WEB-INF/tag</location>
 		</link>
 	</linkedResources>
 </projectDescription>
