@@ -11,7 +11,7 @@ import com.kaifantech.bean.msg.agv.AGVMsgBean;
 import com.kaifantech.bean.msg.agv.yufeng.YufengAGVMsgBean;
 import com.kaifantech.bean.msg.agv.yufeng.YufengAgvMsgBeanTransfer;
 import com.kaifantech.component.service.agv.simulator.YufengAgvServerWorker;
-import com.kaifantech.init.sys.params.SystemParameters;
+import com.kaifantech.init.sys.params.AppSysParameters;
 import com.calculatedfun.util.AppTool;
 import com.calculatedfun.util.msg.AppMsg;
 
@@ -28,7 +28,7 @@ public class YufengAgvManager {
 	public synchronized Object getLatestMsg() {
 		String msg = null;
 		Map<Integer, AGVMsgBean> latestMsg = new HashMap<Integer, AGVMsgBean>();
-		if (SystemParameters.isLocalTest()) {
+		if (AppSysParameters.isLocalTest()) {
 			msg = yufengTestMsgService.getNextMsg();
 		} else {
 			msg = nextMsg;
